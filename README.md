@@ -1,6 +1,6 @@
 # FOMO-object-detect-TFT-Esp32
-This project was intended for displaying camera feed and inference results of [FOMO object detection model](https://edge-impulse.gitbook.io/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices) by [Edge Impulse](https://edgeimpulse.com/) to TFT screen. The Hardware that was used were provided by [Wireless Solution Asia](https://wirelesssolution.asia/). To run this project users must obtain a model from Edge Impulse. <br/>
-<strong>Please refer to this [repository](https://github.com/San279/Esp32-camera-to-tft) to set up TFT and Camera. </strong><br/> <br/>
+This project was intended for displaying camera feed and inference results of [FOMO object detection model](https://edge-impulse.gitbook.io/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices) by [Edge Impulse](https://edgeimpulse.com/) to TFT screen. The Hardware were provided by [Wireless Solution Asia](https://wirelesssolution.asia/). To run this project users must obtain a model from Edge Impulse. <br/>
+<strong>Please refer to this [repository](https://github.com/San279/Esp32-camera-to-tft) to set up TFT and Camera before running this project. </strong><br/> <br/>
 ![alt text](Images_for_readme/320_240.PNG)
 <br/> <br/><br/>
 ## What you'll need
@@ -19,7 +19,7 @@ This project was intended for displaying camera feed and inference results of [F
 2. Open Fomo_object_detect_TFT.ino, under tools change your Board to "ESP32S3 Dev Module" and PSRAM to "OPI PSRAM". <br /><br />
 ![alt text](/Images_for_readme/IDE_configure.PNG)
 <br /><br /><br /><br />
-3. Add zip folder of the model obtained from Edge Impulse to Arduino IDE. </strong> <br /><br />
+3. Add the zip folder of the trained model obtained from Edge Impulse to Arduino IDE. </strong> <br /><br />
 ![alt text](Images_for_readme/arduino_model_zip.PNG)
 <br /><br />
 ![alt text](Images_for_readme/FOMO_model_zip.PNG)
@@ -28,7 +28,7 @@ This project was intended for displaying camera feed and inference results of [F
 - if you're using [AIOT board](https://wirelesssolution.asia/), simply connect I/O port 1 to any push button.
 ![alt text](/Images_for_readme/AIOT_push_button.jpg)<br /><br />
 <br /><br />
-- if you do not have AIOT board, connect I/O pin 1 of the Esp32 to the leg of a push button and other leg to 3v.<br /><br />
+- if you do not have AIOT board, connect I/O pin 1 of the Esp32 to one of the leg of a push button and other leg to 3v.<br /><br />
 ![alt text](/Images_for_readme/push_button.PNG)
 <br /><br /><br /><br />
 5. Upload the code to Esp32-S3. This process might take up to 30 minutes, and you're Done!! <br /><br />
@@ -57,4 +57,4 @@ This project was intended for displaying camera feed and inference results of [F
 <br /><br /><br />
 
 ## Credit
-Thanks to [WIRELESS SOLUTION ASIA CO.,LTD](https://wirelesssolution.asia/) for providing AIOT board to support this project. Also thanks to [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md) for TFT libraries. Scripted used for Esp32 FOMO object detection inferencing were from [Edge Impulse](https://edge-impulse.gitbook.io/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices). 
+Thanks to [WIRELESS SOLUTION ASIA CO.,LTD](https://wirelesssolution.asia/) for providing AIOT board to support this project. Also thanks to [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md) for the TFT libraries. Scripted used for Esp32 FOMO object detection inferencing were provided by [Edge Impulse](https://edge-impulse.gitbook.io/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices). 
