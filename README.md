@@ -1,5 +1,5 @@
 # FOMO-object-detect-TFT-Esp32
-This project was intended for displaying camera feed and [FOMO object detection model](https://edge-impulse.gitbook.io/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices) by [Edge Impulse](https://edgeimpulse.com/) inference results to TFT screen. The Hardware that was used were provided by [Wireless Solution Asia](https://wirelesssolution.asia/). To run this project users must obtain a model from Edge Impulse. <br/>
+This project was intended for displaying camera feed and inference results of [FOMO object detection model](https://edge-impulse.gitbook.io/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices) by [Edge Impulse](https://edgeimpulse.com/) to TFT screen. The Hardware that was used were provided by [Wireless Solution Asia](https://wirelesssolution.asia/). To run this project users must obtain a model from Edge Impulse. <br/>
 <strong>Please refer to this [repository](https://github.com/San279/Esp32-camera-to-tft) to set up TFT and Camera. </strong><br/> <br/>
 ![alt text](Images_for_readme/320_240.PNG)
 <br/> <br/><br/>
