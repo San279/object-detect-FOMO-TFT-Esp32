@@ -19,10 +19,15 @@ This project was intended for displaying camera feed and [FOMO object detection 
 2. Open Fomo_object_detect_TFT.ino, under tools change your Board to "ESP32S3 Dev Module" and PSRAM to "OPI PSRAM". <br /><br />
 ![alt text](/Images_for_readme/IDE_configure.PNG)
 <br /><br /><br /><br />
-3. Connect pin no.1 to a push button. <br /><br />
+3. Add zip folder of the model obtained from Edge Impulse to Arduino IDE. </strong> <br /><br />
+![alt text](Images_for_readme/arduino_model_zip.PNG)
+<br /><br />
+![alt text](Images_for_readme/FOMO_model_zip.PNG)
+<br /><br /><br /><br />
+4. Connect pin no.1 to a push button. <br /><br />
 ![alt text](/Images_for_readme/IDE_configure.PNG)
 <br /><br /><br /><br />
-3. Upload the code to Esp32-S3. This process might take up to 30 minutes, and you're Done!! <br /><br />
+5. Upload the code to Esp32-S3. This process might take up to 30 minutes, and you're Done!! <br /><br />
 ![alt text](/Images_for_readme/320_240.PNG)
 <br /><br /><br /><br />
 
