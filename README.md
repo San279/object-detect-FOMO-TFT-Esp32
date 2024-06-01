@@ -11,4 +11,39 @@ This project was intended for displaying camera feed and [FOMO object detection 
 1. FOMO_object_detect_TFT.ino - Containes Arduino codes displaying camera feed and FOMO results to TFT screens.
 
 ## How to install and run the project
-1.  <strong> Download the zip file and extract it to Arduino directory </strong> <br /><br />
+1. Download the zip file and extract it to Arduino directory. <br /><br />
+![alt text](Images_for_readme/arduino_model_zip.PNG)
+<br /><br /><br /><br />
+2. Open Fomo_object_detect_TFT.ino, under tools change your Board to "ESP32S3 Dev Module" and PSRAM to "OPI PSRAM". <br /><br />
+![alt text](/Images_for_readme/IDE_configure.PNG)
+<br /><br /><br /><br />
+3. Connect pin no.1 to a push button. <br /><br />
+![alt text](/Images_for_readme/IDE_configure.PNG)
+<br /><br /><br /><br />
+3. Upload the code to Esp32-S3. This procoess might take up to 30 minutes, and you're Done!! <br /><br />
+![alt text](/Images_for_readme/IDE_configure.PNG)
+<br /><br /><br /><br />
+
+## Project features
+- User can change resolution of the camera when the push button is pressed. The avaiable resolution is as follow. <br /><br />
+- 96 X 96 <br /><br />
+![alt text](/Images_for_readme/IDE_configure.PNG)
+<br /><br /><br />
+- QQVGA 160 X 120
+![alt text](/Images_for_readme/IDE_configure.PNG)
+<br /><br /><br />
+- 176 X 144
+![alt text](/Images_for_readme/IDE_configure.PNG)
+<br /><br /><br />
+- 240 X 176
+![alt text](/Images_for_readme/IDE_configure.PNG)
+<br /><br /><br />
+- 240 X 240
+![alt text](/Images_for_readme/IDE_configure.PNG)
+<br /><br /><br />
+- 320 X 240
+![alt text](/Images_for_readme/IDE_configure.PNG)
+<br /><br /><br />
+
+## Credit
+Thanks to [WIRELESS SOLUTION ASIA CO.,LTD](https://wirelesssolution.asia/) for providing AIOT board to support this project. Also thanks to [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md) for TFT libraries. Scripted used for Esp32 FOMO object detection inferencing were from [Edge Impulse](https://edge-impulse.gitbook.io/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices). 
