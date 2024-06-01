@@ -29,19 +29,19 @@ This project was intended for displaying camera feed and [FOMO object detection 
 - 96 X 96 <br /><br />
 ![alt text](/Images_for_readme/IDE_configure.PNG)
 <br /><br /><br />
-- QQVGA 160 X 120
+- QQVGA 160 X 120  <br /><br />
 ![alt text](/Images_for_readme/IDE_configure.PNG)
 <br /><br /><br />
-- 176 X 144
+- 176 X 144  <br /><br />
 ![alt text](/Images_for_readme/IDE_configure.PNG)
 <br /><br /><br />
-- 240 X 176
+- 240 X 176  <br /><br />
 ![alt text](/Images_for_readme/IDE_configure.PNG)
 <br /><br /><br />
-- 240 X 240
+- 240 X 240  <br /><br />
 ![alt text](/Images_for_readme/IDE_configure.PNG)
 <br /><br /><br />
-- 320 X 240
+- 320 X 240  <br /><br />
 ![alt text](/Images_for_readme/IDE_configure.PNG)
 <br /><br /><br />
 
