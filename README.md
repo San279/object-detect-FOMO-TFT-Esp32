@@ -24,7 +24,7 @@ This project was intended for displaying camera feed and [FOMO object detection 
 <br /><br />
 ![alt text](Images_for_readme/FOMO_model_zip.PNG)
 <br /><br /><br /><br />
-4. Connect pin no.1 to a push button. <br /><br />
+4. Connect pin no.1 of the Esp32 to a push button. <br /><br />
 ![alt text](/Images_for_readme/IDE_configure.PNG)
 <br /><br /><br /><br />
 5. Upload the code to Esp32-S3. This process might take up to 30 minutes, and you're Done!! <br /><br />
