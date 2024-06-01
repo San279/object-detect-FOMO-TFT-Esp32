@@ -25,7 +25,11 @@ This project was intended for displaying camera feed and [FOMO object detection 
 ![alt text](Images_for_readme/FOMO_model_zip.PNG)
 <br /><br /><br /><br />
 4. Connect pin no.1 of the Esp32 to a push button. <br /><br />
-![alt text](/Images_for_readme/IDE_configure.PNG)
+- if you're using [AIOT board](https://wirelesssolution.asia/), simply connect I/O port 1 to any push button.
+![alt text](/Images_for_readme/AIOT_push_button.PNG)<br /><br />
+<br /><br />
+- if you do not have AIOT board, connect I/O pin 1 to the push button and other pin to 3v.<br /><br />
+![alt text](/Images_for_readme/push_button.PNG)
 <br /><br /><br /><br />
 5. Upload the code to Esp32-S3. This process might take up to 30 minutes, and you're Done!! <br /><br />
 ![alt text](/Images_for_readme/320_240.PNG)
