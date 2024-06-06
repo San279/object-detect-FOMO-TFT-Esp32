@@ -8,16 +8,16 @@
 ## สิงที่ต้องมี
  - [AIoT](https://wirelesssolution.asia/) บอร์ด Esp32-S3 หรือ Esp32 ที่มี PSRAM
  - กล้อง OV 2640
- - ST7789 หรือ จอ TFT แบบไหนก้ได้ <br/> <br/>
+ - ST7789 หรือ จอ TFT แบบไหนก้ได้
  - [Arduino IDE](https://www.arduino.cc/en/software) อันเก่าหรือใหม่ก้ได้
    รูปแผงวงจรของกล้องกับจอ TFT ใน AIot บอร์ด <br/> <br/>
   ![alt text](/Images_for_readme/AIOT_push_button.jpg)
 ## โครงสร้าง
- - FOMO_object_detect_TFT_ino - มีไฟล์ Arduino เพื่อแสดงผล AI ขึ้นบนหน้าจอ TFT.
+ - FOMO_object_detect_TFT_ino - มีไฟล์ Arduino เพื่อแสดงผล AI ขึ้นบนหน้าจอ TFT
 ## วิธีรันโปรเจ็ค
 <strong> 1. ดาวน์โหลดแฟ้มเป็น zip และแตกไฟล์ในแฟ้ม Arduino. </strong>
 <br /><br />
-![alt_text](/Images_for_readme/download_directory.PNG)
+![alt_text](/Images_for_readme/folder_directory.PNG)
 <br /><br /><br /><br />
 <strong> 2. เปิดไฟล์ FOMO_object_detect_TFT. บน Arduino และกดไปที่ sketch และ Add .Zip library หลังจากนั้นให้เลือกไฟล์โมเดล </strong>
 <br /><br />
