@@ -1,7 +1,8 @@
 # FOMO-object-detect-TFT-Esp32
 This project was intended for displaying camera feed and inference results of [FOMO object detection model](https://edge-impulse.gitbook.io/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices) by [Edge Impulse](https://edgeimpulse.com/) to TFT screen. The Hardware were provided by [Wireless Solution Asia](https://wirelesssolution.asia/). To run this project users must obtain a model from Edge Impulse. 
 <br/> <br/>
-<strong> - I've created repository to provide simple guide to traning your model please visit [train-FOMO-object-detect-esp32](https://github.com/San279/train-FOMO-object-detect-esp32). </strong> <br/>
+<strong> - I've created repository to provide simple guide to traning your model please visit [train-FOMO-object-detect-esp32](https://github.com/San279/train-FOMO-object-detect-esp32). </strong> 
+<br/>
 <strong>- Please refer to this [repository](https://github.com/San279/Esp32-camera-to-tft) to set up TFT and Camera before running this project. </strong>
 <br/> <br/>
 ![alt text](Images_for_readme/320_240.PNG)
@@ -11,7 +12,6 @@ This project was intended for displaying camera feed and inference results of [F
 - ESP32-S3 is preferable but older version will do just fine.
 - ST7789 or any TFT screens.
 - OV2640 camera or any OV series.
-
 ## Project files descriptions
 - FOMO_object_detect_TFT.ino - Containes Arduino codes displaying camera feed and FOMO results to TFT screens.
 ## How to install and run the project
@@ -38,8 +38,8 @@ This project was intended for displaying camera feed and inference results of [F
 
 ![alt text](/Images_for_readme/push_button.PNG)
 
-<strong> 5. Open FOMO_object_detect_TFT.ino and match the name of project in Edge Impulse with header file in line 24 </strong>
-
+<strong> 5. Open FOMO_object_detect_TFT.ino and match the name of project in Edge Impulse with header file in line 24. </strong>
+<br/><br/>
 ![alt text](/Images_for_readme/match_name.PNG)
 <strong> 6. Upload the code, this process might take up to 30 minutes, and you're Done!! </strong>
 <br/><br/>
