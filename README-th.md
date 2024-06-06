@@ -3,6 +3,8 @@
  <br/>
  <br/>
  โปรเจ็คนี้ถูกออกแบบมาใช้กับ [FOMO](https://docs.edgeimpulse.com/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices) AI ตรวจจับวัตถุ ในส่วนของการแสดงผล AI บนจอ TFT ใน AIoT บอร์ด หรือ Esp32Cam ที่มี PSRAM เท่านั้น
+ <br/>
+ <br/>
  <strong> - ก่อนใช้ไฟล์นี้ต้องมีไฟล์โมเดล [FOMO](https://github.com/San279/train-FOMO-object-detect-esp32) และ [เซ็ทกล้องกับจอ TFT](https://github.com/San279/Esp32-camera-to-tft) บน AIoT บอร์ด</strong> 
 <br/>
 ## สิงที่ต้องมี
