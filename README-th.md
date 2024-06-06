@@ -26,7 +26,7 @@
 ![alt_text](/Images_for_readme/arduino_model_zip.PNG)
 <br /><br /><br /><br />
 <strong> 3. เปลี่ยนชื่อไฟล์บรรทัดที่ 24 ให้ตรงกับชื่อโปรเจ็คใน Edge Impulse </strong> 
-<br/><br/>
+<br /><br /><br /><br />
 ![alt_text](/Images_for_readme/match_name.PNG)
 <strong> 4. กดไปที่ tools ตรงตัวเลือกด้านบนและเปลี่ยน Board เป็น "ESP32S3 Dev Module" และเปลี่ยน PSRAM เป็น "OPI PSRAM".  </strong>
 <br /><br />
