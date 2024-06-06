@@ -1,5 +1,5 @@
 ## camera-tft-esp32
- [For English version](https://github.com/San279/Esp32-camera-to-tft)
+ [For English version](https://github.com/San279/object-detect-FOMO-TFT-Esp32)
  <br/>
  <br/>
  โปรเจ็คนี้ถูกออกแบบมาใช้กับ [FOMO](https://docs.edgeimpulse.com/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices) AI ตรวจจับวัตถุ ในส่วนของการแสดงผล AI บนจอ TFT ใน AIoT บอร์ด หรือ Esp32Cam ที่มี PSRAM เท่านั้น
