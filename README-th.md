@@ -17,21 +17,21 @@
 ## วิธีรันโปรเจ็ค
 <strong> 1. ดาวน์โหลดแฟ้มเป็น zip และแตกไฟล์ในแฟ้ม Arduino. </strong>
 <br /><br />
-![alt_text](/images-for-readme/download_directory.PNG)
+![alt_text](/Images-for-readme/download_directory.PNG)
 <br /><br /><br /><br />
 <strong> 2. เปิดไฟล์ FOMO_object_detect_TFT. บน Arduino และกดไปที่ sketch และ Add .Zip library หลังจากนั้นให้เลือกไฟล์โมเดล </strong>
 <br /><br />
-![alt_text](/images-for-readme/arduino_model_zip.PNG)
+![alt_text](/Images-for-readme/arduino_model_zip.PNG)
 <br /><br /><br /><br />
 <strong> 3. เปลี่ยนชื่อไฟล์บรรทัดที่ 24 ให้ตรงกับชื่อโปรเจ็คใน Edge Impulse </strong> 
 <br/><br/>
-![alt_text](/images-for-readme/match_name.PNG)
+![alt_text](/Images-for-readme/match_name.PNG)
 <strong> 4. กดไปที่ tools ตรงตัวเลือกด้านบนและเปลี่ยน Board เป็น "ESP32S3 Dev Module" และเปลี่ยน PSRAM เป็น "OPI PSRAM".  </strong>
 <br /><br />
-![alt_text](/images-for-readme/IDE_configure.PNG)
+![alt_text](/Images-for-readme/IDE_configure.PNG)
 <br /><br /><br /><br />
 <strong> 5. อัพโหลดโค้ดขึ้นบน ESP32-S3  </strong> <br/> <br/>
-![alt_text](/images-for-readme/320_240.PNG)
+![alt_text](/Images-for-readme/320_240.PNG)
 <br /><br /><br /><br />
 ## เครดิต 
 ต้องขอขอบคุณ [WIRELESS SOLUTION ASIA CO.,LTD](https://wirelesssolution.asia/) สำหรับการสนับสนุนโปรเจ็คนี้ และ [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md)
