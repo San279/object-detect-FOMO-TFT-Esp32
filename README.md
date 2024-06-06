@@ -31,7 +31,6 @@ This project was intended for displaying camera feed and inference results of [F
 <br/><br/><br/><br/>
  4. Connect pin no.1 of the Esp32 to a push button.
 - if you're using [AIOT board](https://wirelesssolution.asia/), simply connect I/O port 1 to any push button.
-<br/>
 ![alt text](/Images_for_readme/AIOT_push_button.jpg)
 <br/><br/>
 - if you do not have AIOT board, connect I/O pin 1 of the Esp32 to one of the leg of a push button and other leg to 3v.
