@@ -31,17 +31,16 @@ This project was intended for displaying camera feed and inference results of [F
 <br/><br/><br/><br/>
 <strong> 4. Connect pin no.1 of the Esp32 to a push button. </strong>
 - if you're using [AIOT board](https://wirelesssolution.asia/), simply connect I/O port 1 to any push button.
-<br/>
+
 ![alt text](/Images_for_readme/AIOT_push_button.jpg)
 <br/><br/>
 - if you do not have AIOT board, connect I/O pin 1 of the Esp32 to one of the leg of a push button and other leg to 3v.
-<br/>
+
 ![alt text](/Images_for_readme/push_button.PNG)
-<br/><br /><br /><br />
+
 <strong> 5. Open FOMO_object_detect_TFT.ino and match the name of project in Edge Impulse with header file in line 24 </strong>
-<br/><br />
+
 ![alt text](/Images_for_readme/match_name.PNG)
-<br/><br/><br/><br/>
 <strong> 6. Upload the code, this process might take up to 30 minutes, and you're Done!! </strong>
 <br/><br/>
 ![alt text](/Images_for_readme/320_240.PNG)
