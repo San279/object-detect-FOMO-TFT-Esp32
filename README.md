@@ -14,27 +14,35 @@ This project was intended for displaying camera feed and inference results of [F
 
 ## Project files descriptions
 1. FOMO_object_detect_TFT.ino - Containes Arduino codes displaying camera feed and FOMO results to TFT screens.
-
 ## How to install and run the project
-1. Download the zip file and extract it to Arduino directory. <br /><br />
+<strong> 1. Download the zip file and extract it to Arduino directory. </strong>
+<br /><br />
 ![alt text](Images_for_readme/folder_directory.PNG)
 <br /><br /><br /><br />
-2. Open Fomo_object_detect_TFT.ino, under tools change your Board to "ESP32S3 Dev Module" and PSRAM to "OPI PSRAM". <br /><br />
+<strong> 2. Open Fomo_object_detect_TFT.ino, under tools change your Board to "ESP32S3 Dev Module" and PSRAM to "OPI PSRAM". </strong> 
+<br /><br />
 ![alt text](/Images_for_readme/IDE_configure.PNG)
 <br /><br /><br /><br />
-3. Add the zip folder of the trained model obtained from Edge Impulse to Arduino IDE. </strong> <br /><br />
+<strong> 3. Add the zip folder of the trained model obtained from Edge Impulse to Arduino IDE. </strong> 
+<br /><br />
 ![alt text](Images_for_readme/arduino_model_zip.PNG)
 <br /><br />
 ![alt text](Images_for_readme/FOMO_model_zip.PNG)
 <br /><br /><br /><br />
-4. Connect pin no.1 of the Esp32 to a push button. <br /><br />
+<strong> 4. Connect pin no.1 of the Esp32 to a push button. </strong>
+<br /><br />
 - if you're using [AIOT board](https://wirelesssolution.asia/), simply connect I/O port 1 to any push button.
 ![alt text](/Images_for_readme/AIOT_push_button.jpg)<br /><br />
 <br /><br />
 - if you do not have AIOT board, connect I/O pin 1 of the Esp32 to one of the leg of a push button and other leg to 3v.<br /><br />
 ![alt text](/Images_for_readme/push_button.PNG)
 <br /><br /><br /><br />
-5. Upload the code to Esp32-S3. This process might take up to 30 minutes, and you're Done!! <br /><br />
+<strong> 5. Open FOMO_object_detect_TFT.ino and match the name of project in Edge Impulse with header file in line 24 </strong>
+<br /><br />
+![alt text](/Images_for_readme/match_name.PNG)
+<br /><br /><br /><br />
+<strong> 6. Upload the code, this process might take up to 30 minutes, and you're Done!! </strong>
+<br /><br />
 ![alt text](/Images_for_readme/320_240.PNG)
 <br /><br /><br /><br />
 
