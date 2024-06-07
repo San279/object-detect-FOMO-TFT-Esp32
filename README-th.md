@@ -1,4 +1,4 @@
-## camera-tft-esp32
+## object-detect-FOMO-TFT-esp32
  [For English version](https://github.com/San279/object-detect-FOMO-TFT-Esp32)
  <br/>
  <br/>
@@ -37,7 +37,7 @@
 ![alt_text](/Images_for_readme/320_240.PNG)
 <br /><br /><br /><br />
 ## ฟีเจอร์ของโปรเจ็ค
-- เปลี่ยนมัติหรือความละเียดรูปของกล้องด้วยการกดปุ้มที่ต่อกับ I/o pin 1 โดยทุกคร้งที่กดปุ้ม มิติของกล้องจะสลับไปตามนี้<br /><br />
+- เปลี่ยนมัติหรือความละเอียดรูปของกล้องด้วยการกดปุ้มที่ต่อกับ I/o pin 1 โดยทุกคร้งที่กดปุ้ม มิติของกล้องจะสลับไปตามนี้<br /><br />
 - 96 X 96 <br /><br />
 ![alt text](/Images_for_readme/96_96.PNG)
 <br /><br /><br />
