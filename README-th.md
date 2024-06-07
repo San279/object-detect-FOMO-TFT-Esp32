@@ -36,6 +36,27 @@
 <strong> 5. อัพโหลดโค้ดขึ้นบน ESP32-S3  </strong> <br/> <br/>
 ![alt_text](/Images_for_readme/320_240.PNG)
 <br /><br /><br /><br />
+## ฟีเจอร์ของโปรเจ็ค
+- เปลี่ยนมัติหรือความละเียดรูปของกล้องด้วยการกดปุ้มที่ต่อกับ I/o pin 1 โดยทุกคร้งที่กดปุ้ม มิติของกล้องจะสลับไปตามนี้<br /><br />
+- 96 X 96 <br /><br />
+![alt text](/Images_for_readme/96_96.PNG)
+<br /><br /><br />
+- QQVGA 160 X 120  <br /><br />
+![alt text](/Images_for_readme/160_120.PNG)
+<br /><br /><br />
+- 176 X 144  <br /><br />
+![alt text](/Images_for_readme/176_144.PNG)
+<br /><br /><br />
+- 240 X 176  <br /><br />
+![alt text](/Images_for_readme/240_176.PNG)
+<br /><br /><br />
+- 240 X 240  <br /><br />
+![alt text](/Images_for_readme/240_240.PNG)
+<br /><br /><br />
+- 320 X 240  <br /><br />
+![alt text](/Images_for_readme/320_240.PNG)
+<br /><br /><br />
+
 ## เครดิต 
 ต้องขอขอบคุณ [WIRELESS SOLUTION ASIA CO.,LTD](https://wirelesssolution.asia/) สำหรับการสนับสนุนโปรเจ็คนี้ และ [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md)
 สำหรับโค้ดส่วนจอ TFT และโค้ดส่วนรัน FOMO จาก [Edge Impulse](https://edge-impulse.gitbook.io/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices) 
