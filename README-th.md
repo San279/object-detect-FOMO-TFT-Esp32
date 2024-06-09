@@ -38,22 +38,22 @@
 <br /><br /><br /><br />
 ## ฟีเจอร์ของโปรเจ็ค
 - เปลี่ยนมัติหรือความละเอียดรูปของกล้องด้วยการกดปุ่ม push button ที่ต่อกับ I/o pin 1 ในทุกๆ คร้งที่กดปุ่ม มิติของกล้องจะสลับไปตามนี้<br /><br />
-- 96 X 96 เรารันผล Ai ได้ 5 ครั้งต่อเฟรม<br /><br />
+- ขนาดรูป 96 X 96 เรารันผล AI ได้ 5 ครั้งต่อเฟรม(fps)<br /><br />
 ![alt text](/Images_for_readme/96_96.PNG)
 <br /><br /><br />
-- QQVGA 160 X 120 เรารันผล Ai ได้ 5 ครั้งต่อเฟรม<br /><br />
+- QQVGA 160 X 120 ผล Ai 5 fps<br /><br />
 ![alt text](/Images_for_readme/160_120.PNG)
 <br /><br /><br />
-- 176 X 144  <br /><br />
+- 176 X 144  120 ผล Ai 5 fps<br /><br />
 ![alt text](/Images_for_readme/176_144.PNG)
 <br /><br /><br />
-- 240 X 176  <br /><br />
+- 240 X 176  120 ผล Ai 4 fps<br /><br />
 ![alt text](/Images_for_readme/240_176.PNG)
 <br /><br /><br />
-- 240 X 240  <br /><br />
+- 240 X 240  120 ผล Ai 4 fps<br /><br />
 ![alt text](/Images_for_readme/240_240.PNG)
 <br /><br /><br />
-- 320 X 240  <br /><br />
+- 320 X 240  120 ผล Ai 3 fps<br /><br />
 ![alt text](/Images_for_readme/320_240.PNG)
 <br /><br /><br />
 - เราควรเลือกมิติของโมเดลเรา<br /><br />
