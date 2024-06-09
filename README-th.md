@@ -2,7 +2,7 @@
  [For English version](https://github.com/San279/object-detect-FOMO-TFT-Esp32)
  <br/>
  <br/>
- โปรเจ็คนี้ถูกออกแบบมาใช้กับ [FOMO](https://docs.edgeimpulse.com/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices) AI ตรวจจับวัตถุ ในส่วนของการแสดงผล AI บนจอ TFT ใน AIoT บอร์ด หรือ Esp32Cam ที่มี PSRAM เท่านั้น
+ โปรเจ็คนี้ถูกออกแบบมาใช้กับ [FOMO](https://docs.edgeimpulse.com/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices) AI ตรวจจับวัตถุ ในส่วนของการแสดงผล AI บนจอ TFT ใน AIoT บอร์ด
  <br/>
  <br/>
  <strong> - ก่อนใช้ไฟล์นี้ต้องมีไฟล์โมเดล [FOMO](https://github.com/San279/train-FOMO-object-detect-esp32) และ [เซ็ทกล้องกับจอ TFT](https://github.com/San279/Esp32-camera-to-tft) บน AIoT บอร์ด</strong> 
@@ -33,7 +33,7 @@
 <br /><br />
 ![alt_text](/Images_for_readme/IDE_configure.PNG)
 <br /><br /><br /><br />
-<strong> 5. อัพโหลดโค้ดขึ้นบน ESP32-S3  </strong> <br/> <br/>
+<strong> 5. อัพโหลดโค้ดขึ้นบน ESP32-S3 เมื่ออัพโหลดครั้งแรกอาจจะใช้เวลาถึง 20 - 30 นาที</strong> <br/> <br/>
 ![alt_text](/Images_for_readme/320_240.PNG)
 <br /><br /><br /><br />
 ## ฟีเจอร์ของโปรเจ็ค
